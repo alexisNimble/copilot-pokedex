@@ -1,5 +1,7 @@
 body {
-    background-color: yellow;
+    background-image: url('../images/background-image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,11 +12,16 @@ body {
 }
 
 .pokemon-info {
-    width: -30%; /* or any other percentage or fixed value you prefer */
+    width: 80%;
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 .pokemon-info th {
-    text-align:  center;
+    text-align: center;
     font-weight: bold;
 }
 
@@ -22,11 +29,22 @@ body {
     width: 300px;
     height: auto;
     display: block;
-    margin-bottom: -40px; /* adjust as needed */
+    margin-bottom: 20px;
 }
 
 .pokemon-info table {
-    margin-top: -20px; /* adjust as needed */
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.pokemon-info table td,
+.pokemon-info table th {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.pokemon-info table th {
+    background-color: #f2f2f2;
 }
 
 .pokemon-name,
@@ -34,5 +52,12 @@ body {
 .pokemon-height-weight,
 .pokemon-types {
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 30px;
+}
+
+.pokemon-name input[type="text"],
+.pokemon-name input[type="submit"] {
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
 }

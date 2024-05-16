@@ -1,7 +1,8 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, jsonify
 import requests
 
 app = Flask(__name__)
+app.debug = True
 
 @app.route('/', methods=['GET', 'POST'])
 def get_pokemon_info():
