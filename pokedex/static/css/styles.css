@@ -1,0 +1,38 @@
+body {
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+}
+
+.pokemon-info {
+    width: -30%; /* or any other percentage or fixed value you prefer */
+}
+
+.pokemon-info th {
+    text-align:  center;
+    font-weight: bold;
+}
+
+.pokemon-info img {
+    width: 300px;
+    height: auto;
+    display: block;
+    margin-bottom: -40px; /* adjust as needed */
+}
+
+.pokemon-info table {
+    margin-top: -20px; /* adjust as needed */
+}
+
+.pokemon-name,
+.pokemon-id,
+.pokemon-height-weight,
+.pokemon-types {
+    margin-top: 20px;
+    font-size: 20px;
+}

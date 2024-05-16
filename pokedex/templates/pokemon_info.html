@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+<body>
+    <div class="pokemon-info">
+        <img src="{{ image_url }}" alt="{{ name }}">
+        <table>
+            <tr>
+                <th class="pokemon-name">Name:</th>
+                <td>{{ name }}</td>
+            </tr>
+            <tr>
+                <th class="pokemon-id">ID:</th>
+                <td>{{ id }}</td>
+            </tr>
+            <tr>
+                <th class="pokemon-height-weight">Height / Weight:</th>
+                <td>{{ height }} - {{ weight }}</td>
+            </tr>
+            <tr>
+                <th class="pokemon-types">Types:</th>
+                <td>{{ types|join(', ') }}</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
