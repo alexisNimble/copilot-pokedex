@@ -24,5 +24,7 @@ def get_pokemon_info():
             return "Error: Failed to retrieve Pokemon information."
     return render_template('index.html')
 
+
+
 if __name__ == '__main__':
     app.run(debug=True)
