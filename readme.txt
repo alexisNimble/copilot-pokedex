@@ -15,5 +15,7 @@ pip install -r requirements.txt
 
 # PROMPT ON THE MAIN.PY FILE USING SIDE CHAT:
 
-Create a Flask route "pokemon_names" that fetches Pokémon names from the PokeAPI and returns them as a JSON response. Additionally, write a JavaScript function that fetches this list of Pokémon names from the Flask route and populates a datalist element "pokemon_name_list" in an HTML page with these names. Ensure the JavaScript function runs when the page loads.
+Create a Flask route "pokemon_names" that fetches Pokémon names from the PokeAPI and returns them as a JSON response. 
+Additionally, write a JavaScript function that fetches this list of Pokémon names from the Flask route and populates a datalist element "pokemon_name_list" in an HTML page with these names. 
+Ensure the JavaScript function runs when the page loads.
 Give the whole code and adjusments on the main.py and index.html file.
